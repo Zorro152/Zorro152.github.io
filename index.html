@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela liter arabskich z plikami audio</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-between;
+        }
+        .table-container {
+            width: 48%;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .arabic-text {
+            font-size: 1.5em;
+            line-height: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Izolowana</th>
+                    <th>Końcowa</th>
+                    <th>Środkowa</th>
+                    <th>Początkowa</th>
+                    <th>Nazwa litery</th>
+                    <th>Audio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Pierwsze 15 liter -->
+                <tr>
+                    <td class="arabic-text">أ</td>
+                    <td class="arabic-text">ـأ</td>
+                    <td class="arabic-text"></td>
+                    <td class="arabic-text"></td>
+                    <td>Alif</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio1.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ب</td>
+                    <td class="arabic-text">ـب</td>
+                    <td class="arabic-text">ـبـ</td>
+                    <td class="arabic-text">بـ</td>
+                    <td>Bāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio2.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ت</td>
+                    <td class="arabic-text">ـت</td>
+                    <td class="arabic-text">ـتـ</td>
+                    <td class="arabic-text">تـ</td>
+                    <td>Tāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio3.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ث</td>
+                    <td class="arabic-text">ـث</td>
+                    <td class="arabic-text">ـثـ</td>
+                    <td class="arabic-text">ثـ</td>
+                    <td>Thāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio4.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ج</td>
+                    <td class="arabic-text">ـج</td>
+                    <td class="arabic-text">ـجـ</td>
+                    <td class="arabic-text">جـ</td>
+                    <td>Jīm</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio5.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ح</td>
+                    <td class="arabic-text">ـح</td>
+                    <td class="arabic-text">ـحـ</td>
+                    <td class="arabic-text">حـ</td>
+                    <td>Ḥāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio6.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">خ</td>
+                    <td class="arabic-text">ـخ</td>
+                    <td class="arabic-text">ـخـ</td>
+                    <td class="arabic-text">خـ</td>
+                    <td>Khāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio7.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">د</td>
+                    <td class="arabic-text">ـد</td>
+                    <td class="arabic-text"></td>
+                    <td class="arabic-text"></td>
+                    <td>Dāl</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio8.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ذ</td>
+                    <td class="arabic-text">ـذ</td>
+                    <td class="arabic-text"></td>
+                    <td class="arabic-text"></td>
+                    <td>Dhāl</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio9.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ر</td>
+                    <td class="arabic-text">ـر</td>
+                    <td class="arabic-text"></td>
+                    <td class="arabic-text"></td>
+                    <td>Rāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio10.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ز</td>
+                    <td class="arabic-text">ـز</td>
+                    <td class="arabic-text"></td>
+                    <td class="arabic-text"></td>
+                    <td>Zāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio11.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">س</td>
+                    <td class="arabic-text">ـس</td>
+                    <td class="arabic-text">ـسـ</td>
+                    <td class="arabic-text">سـ</td>
+                    <td>Sīn</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio12.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ش</td>
+                    <td class="arabic-text">ـش</td>
+                    <td class="arabic-text">ـشـ</td>
+                    <td class="arabic-text">شـ</td>
+                    <td>Shīn</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio13.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ص</td>
+                    <td class="arabic-text">ـص</td>
+                    <td class="arabic-text">ـصـ</td>
+                    <td class="arabic-text">صـ</td>
+                    <td>Ṣād</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio14.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ض</td>
+                    <td class="arabic-text">ـض</td>
+                    <td class="arabic-text">ـضـ</td>
+                    <td class="arabic-text">ضـ</td>
+                    <td>Ḍād</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio15.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Prawa strona tabelki (litery od 16 do 29) -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Izolowana</th>
+                    <th>Końcowa</th>
+                    <th>Środkowa</th>
+                    <th>Początkowa</th>
+                    <th>Nazwa litery</th>
+                    <th>Audio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Litery 16 do 29 -->
+                
+                <tr>
+                    <td class="arabic-text">ط</td>
+                    <td class="arabic-text">ـط</td>
+                    <td class="arabic-text">ـطـ</td>
+                    <td class="arabic-text">طـ</td>
+                    <td>Ṭāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio16.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ظ</td>
+                    <td class="arabic-text">ـظ</td>
+                    <td class="arabic-text">ـظـ</td>
+                    <td class="arabic-text">ظـ</td>
+                    <td>Ẓāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio17.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ع</td>
+                    <td class="arabic-text">ـع</td>
+                    <td class="arabic-text">ـعـ</td>
+                    <td class="arabic-text">عـ</td>
+                    <td>ʿAyn</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio18.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">غ</td>
+                    <td class="arabic-text">ـغ</td>
+                    <td class="arabic-text">ـغـ</td>
+                    <td class="arabic-text">غـ</td>
+                    <td>Ghayn</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio19.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ف</td>
+                    <td class="arabic-text">ـف</td>
+                    <td class="arabic-text">ـفـ</td>
+                    <td class="arabic-text">فـ</td>
+                    <td>Fāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio20.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ق</td>
+                    <td class="arabic-text">ـق</td>
+                    <td class="arabic-text">ـقـ</td>
+                    <td class="arabic-text">قـ</td>
+                    <td>Qāf</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio21.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ك</td>
+                    <td class="arabic-text">ـك</td>
+                    <td class="arabic-text">ـكـ</td>
+                    <td class="arabic-text">كـ</td>
+                    <td>Kāf</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio22.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ل</td>
+                    <td class="arabic-text">ـل</td>
+                    <td class="arabic-text">ـلـ</td>
+                    <td class="arabic-text">لـ</td>
+                    <td>Lām</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio23.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">م</td>
+                    <td class="arabic-text">ـم</td>
+                    <td class="arabic-text">ـمـ</td>
+                    <td class="arabic-text">مـ</td>
+                    <td>Mīm</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio24.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ن</td>
+                    <td class="arabic-text">ـن</td>
+                    <td class="arabic-text">ـنـ</td>
+                    <td class="arabic-text">نـ</td>
+                    <td>Nūn</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio25.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ه</td>
+                    <td class="arabic-text">ـه</td>
+                    <td class="arabic-text">ـهـ</td>
+                    <td class="arabic-text">هـ</td>
+                    <td>Hāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio26.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">و</td>
+                    <td class="arabic-text">ـو</td>
+                    <td class="arabic-text"></td>
+                    <td class="arabic-text"></td>
+                    <td>Wāw</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio27.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ي</td>
+                    <td class="arabic-text">ـي</td>
+                    <td class="arabic-text">ـيـ</td>
+                    <td class="arabic-text">يـ</td>
+                    <td>Yāʾ</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio28.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ة</td>
+                    <td class="arabic-text">ـة</td>
+                    <td class="arabic-text"></td>
+                    <td class="arabic-text"></td>
+                    <td>Tāʾ marbūṭa</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio28.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="arabic-text">ى</td>
+                    <td class="arabic-text">ـى</td>
+                    <td class="arabic-text"></td>
+                    <td class="arabic-text"></td>
+                    <td>Alif maqṣūra</td>
+                    <td>
+                        <audio controls>
+                            <source src="audio/audio29.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
+
